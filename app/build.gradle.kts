@@ -66,6 +66,9 @@ dependencies {
     // Layout
     implementation(libs.androidx.compose.constraintlayout)
 
+    // Navigation
+    implementation(libs.androidx.navigation)
+
     // Network
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter)
