@@ -77,9 +77,18 @@ dependencies {
 
     // DI Graph
     implementation(libs.hilt)
+    implementation(libs.android.hilt.worker)
     kapt(libs.hilt.compiler)
+    kapt(libs.android.hilt.compiler)
+
+    // Persistent
+    implementation(libs.room.runtime)
+    implementation(libs.room.paging)
+    annotationProcessor(libs.room.compiler)
+    kapt(libs.room.compiler)
 
     testImplementation(libs.junit)
+    testImplementation(libs.room.testing)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
