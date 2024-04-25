@@ -95,10 +95,14 @@ dependencies {
 
     testImplementation(libs.junit)
     testImplementation(libs.room.testing)
+    testImplementation(libs.hilt.testing)
+    kaptTest(libs.hilt.testing)
+    androidTestImplementation(libs.hilt.testing)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
+    kaptAndroidTest(libs.hilt.testing)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }

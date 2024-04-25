@@ -45,6 +45,7 @@ okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhtt
 coroutines = { group = "org.jetbrains.kotlinx", name="kotlinx-coroutines-android", version.ref="coroutines"}
 hilt = { group="com.google.dagger", name="hilt-android", version.ref = "dagger"}
 hilt-compiler = { group="com.google.dagger", name="hilt-android-compiler", version.ref = "dagger"}
+hilt-testing = { group="com.google.dagger", name="hilt-android-testing", version.ref = "dagger"}
 android-hilt-worker = {group="androidx.hilt", name="hilt-work", version.ref = "androidHilt"}
 android-hilt-compiler = {group="androidx.hilt", name="hilt-compiler", version.ref = "androidHilt"}
 android-hilt-navigation = {group="androidx.hilt", name="hilt-navigation-compose", version.ref = "androidHilt"}
