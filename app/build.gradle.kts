@@ -77,7 +77,8 @@ dependencies {
 
     // Concurrent & Async
     implementation(libs.coroutines)
-
+    implementation(libs.androidx.worker)
+    
     // DI Graph
     implementation(libs.hilt)
     implementation(libs.android.hilt.worker)
