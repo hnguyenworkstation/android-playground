@@ -82,6 +82,7 @@ dependencies {
     // DI Graph
     implementation(libs.hilt)
     implementation(libs.android.hilt.worker)
+    implementation(libs.android.hilt.navigation)
     kapt(libs.hilt.compiler)
     kapt(libs.android.hilt.compiler)
 
